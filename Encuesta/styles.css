@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://domnanowo.pl/wp-content/uploads/2020/09/adobestock_357295624.jpg.webp);
+    color: #999ca0;
+    font-family: Tahoma;
+    font-size: 20px;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+    color: #ffffff
+}
+
+form {
+    width: 60vw;
+    margin: 0 auto;
+    max-width: 700px;
+    min-width: 500px;
+    padding-bottom: 2rem;
+    background-color: #00000084;
+    padding: 0 15px 15px;
+    border-radius: 5px
+}
+
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0 2rem 0;
+    border-bottom: 3px solid #ffffff;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+    border-radius: 5px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+input,
+textarea {
+    background-color: #181826;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    
+}
+
+button {
+    width: 60%;
+    display: block;
+    margin: 1em auto;
+    height: 2rem;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    border-radius: 7px;
+
+}
+textarea {
+    min-width: 100%;
+    max-width: 50vh;
+}

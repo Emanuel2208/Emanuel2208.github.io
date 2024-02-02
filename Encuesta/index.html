@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Encuesta de Entretenimiento</h1>
+        <p id="description">Gracias por tomarse el tiempo de realizar esta encuesta</p>
+    </header>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Nombre:<input type="text" id="name" placeholder="Ingresa tu Nombre"
+                    required></label>
+            <label for="email" id="email-label">Correo:<input type="email" id="email"
+                    placeholder="Ingresa tu Correo Electronico" required></label>
+            <label for="age" id="number-label">Edad:<input type="number" id="number" min="13" max="99"
+                    placeholder="Edad" required>
+                <label for="dropdown" >¿Qué plataforma de streaming/entretenimiento utilizas?
+                    <select id="dropdown">
+                        <option value="">Selecciona una opción</option>
+                        <hr>
+                        <option value="1">Netflix</option>
+                        <option value="2">Amazon Prime Video</option>
+                        <option value="3">HBO</option>
+                        <option value="4">Paramount</option>
+                        <option value="5">Star +</option>
+                    </select>
+        </fieldset>
+        <fieldset class="conformado">
+            <legend for="conformity" class="subtitulo">¿Estas conforme con tu servicio de streaming actual?</legend>
+            <label for=""><input type="radio" name="conformity" value=" conformable" class="inline" checked>Definitivamente</label>
+            <label for=""><input type="radio" name="conformity" value="medium-conforme"class="inline" > No estoy seguro</label>
+            <label for=""><input type="radio" name="conformity" value="non-compliant" class="inline">Inconforme</label>
+        </fieldset>
+        <fieldset class="generos">
+            <legend class="subtitulo" de estos generos prefiere?</legend>
+            <label><input type="checkbox" class="inline" value="accion">Acción</label>
+            <label><input type="checkbox" class="inline" value="terror">Terror</label>
+            <label><input type="checkbox" class="inline" value="drama">Drama</label>
+            <label><input type="checkbox" class="inline" value="romance">Romance</label>
+            <label><input type="checkbox" class="inline" value="comedia">Comedia</label>
+            <label><input type="checkbox" class="inline" value="cf">Ciencia Ficción</label>
+            <label><input type="checkbox" class="inline" value="fantasia">Fantasía</label>
+        </fieldset>
+        <fieldset>
+            <legend class="subtitulo">Añada un comentario/sugerencia</legend>
+            <textarea></textarea>
+        </fieldset>
+        <button id="submit" type="submit">Enviar Encuesta</button>
+    </form>
+</body>
+
+</html>
