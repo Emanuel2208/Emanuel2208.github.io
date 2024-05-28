@@ -1,0 +1,193 @@
+body {
+    background-image: url(imagenes/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navegacion {
+    position: fixed;
+    display: grid;
+    background-color: #0000007c;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    z-index: 20;
+}
+
+.navegacion a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navegacion a:hover {
+    text-decoration: none;
+
+}
+
+
+.divisor {
+    width: 100%;
+    height: 1px;
+    margin: 150px 0;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.seccion1 {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h1,
+h2 {
+    font-family: "Bebas Neue";
+    color: #ffffff;
+    text-shadow: 3px 3px 5px #000;
+    font-size: 100px;
+    transition-property: text-shadow;
+    transition-duration: 1s;
+
+}
+
+h1:hover {
+    text-shadow: 0 0 20px #f54a4a;
+
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 20px;
+
+}
+
+
+
+.oscuro {
+    background-color: #000000b9;
+    width: 97%;
+    position: relative;
+    height: 100%;
+    z-index: 10;
+    margin: auto;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+p {
+    font-family: "abel";
+    color: #fff;
+    font-size: 20px;
+    text-justify: auto;
+
+}
+
+.card-conteiner {
+    display: flex;
+
+}
+
+.card {
+    width: 250px;
+    height: 600px;
+    margin: 10px 10px;
+    border: 2px solid #000;
+    position: relative
+}
+
+.card-body {
+    background-color: rgb(195, 196, 194);
+    text-align: center;
+
+}
+
+.card-title {
+    font-family: "oswald";
+    font-size: 25px;
+}
+
+.text-card {
+    color: #000;
+    text-justify: auto;
+    font-size: 18px;
+    font-weight: 50px
+}
+
+.button {
+    width: 110px;
+    color: #000000;
+    border: 1px solid#000000;
+    padding: 5px 20px;
+    font-family: "oswald";
+    background-color: #fefefe4f;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+
+
+
+}
+
+.button:hover {
+    background-color: #b6b2b29c;
+
+    text-decoration: none;
+}
+
+.tarjeta1 .card-body {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(133, 135, 135, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.tarjeta2 .card-body {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(133, 135, 135, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+.tarjeta3 .card-body {
+    background: linear-gradient(180deg, rgba(90, 214, 161, 1) 0%, rgb(40, 76, 69) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.tarjeta4 .card-body {
+    background: linear-gradient(180deg, rgba(171, 63, 23, 1) 0%, rgb(68, 40, 21) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.tarjeta5 .card-body {
+    background: linear-gradient(180deg, rgba(199, 154, 2, 1) 0%, rgb(212, 59, 92) 50%, rgb(0, 0, 0) 100%);
+}
+
+
+.carousel {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #707070e0;
+
+}
+
+
+
+.copyright {
+    color: #000000;
+    padding: 10px;
+}
